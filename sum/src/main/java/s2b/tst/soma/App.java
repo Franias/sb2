@@ -5,7 +5,7 @@ public class App {
 	public static void main( String[] args){
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.printf ("Escreva 2 numeros\n");
+		System.out.printf ("Escreva 2 numeros:\n");
 		double a = entrada.nextDouble();
 		double b = entrada.nextDouble();
 		
