@@ -12,7 +12,7 @@ public class App {
 		entrada.close();
 		double r = Sum.sum(a,b);
 		
-		System.out.printf ("SUM = %.2f\n", r);
+		System.out.printf ("SUM= %.2f\n", r);
 	}
 
 }
