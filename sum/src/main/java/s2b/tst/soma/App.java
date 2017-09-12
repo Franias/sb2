@@ -1,11 +1,18 @@
 package s2b.tst.soma;
+import java.util.Scanner;
 
 public class App {
 	public static void main( String[] args){
-		double a = 10;
-		double b = 20;
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.printf ("Escreva 2 numeros: \n");
+		double a = entrada.nextDouble();
+		double b = entrada.nextDouble();
+		
+		entrada.close();
 		double r = Sum.sum(a,b);
-		System.
+		
+		System.out.printf ("SUM= %.2f\n", r);
 	}
 
 }
